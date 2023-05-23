@@ -25,11 +25,11 @@
 	</form>
 	
 	<%
-			// it shows the msg on the web page when you click on 
-			// save the registration button
-			if(request.getAttribute("msg")!=null){
-				out.println(request.getAttribute("msg"));
-			}
-		%>
+		// it shows the msg on the web page when you click on 
+		// save the registration button
+		if(request.getAttribute("msg")!=null){
+			out.println(request.getAttribute("msg"));
+		}
+	%>
 </body>
 </html>
